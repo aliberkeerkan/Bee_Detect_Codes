@@ -5,7 +5,7 @@ import numpy as np
 
 def run_bytetrack_test():
     # Test için kırptığımız 20 saniyelik video
-    VIDEO_DOSYASI = "test_kirpilmiş.mp4"
+    VIDEO_DOSYASI = "test_cropped.mp4"
 
     # Hocanın attığı yeni YOLO modelinin yolu
     MODEL_DOSYASI = r"C:\Users\BeeLab\Desktop\yolo_test\best.pt"
