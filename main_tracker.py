@@ -305,7 +305,7 @@ class VideoFeed:
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    VIDEO_DOSYASI = "test_kirpilmiş.mp4"
+    VIDEO_DOSYASI = "test_cropped.mp4"
     MODEL_DOSYASI = r"C:\Users\BeeLab\Desktop\yolo_test\checkpoint_best_total.pth"
     
     sistem = VideoFeed(video_source=VIDEO_DOSYASI, model_path=MODEL_DOSYASI)
