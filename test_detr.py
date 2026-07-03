@@ -19,7 +19,7 @@ CLASS_NAMES_DICT = {
 }
 
 # 3. Videoyu Aç
-kaynak_dosya = "test_kirpilmiş.mp4" 
+kaynak_dosya = "test_cropped.mp4" 
 cap = cv2.VideoCapture(kaynak_dosya)
 
 if not cap.isOpened():
