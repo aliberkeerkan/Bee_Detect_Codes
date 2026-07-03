@@ -4,7 +4,7 @@ import supervision as sv
 from rfdetr import RFDETRSmall
 
 def run_bytetrack_test():
-    VIDEO_DOSYASI = "test_kirpilmiş.mp4"
+    VIDEO_DOSYASI = "test_cropped.mp4"
     MODEL_DOSYASI = r"C:\Users\BeeLab\Desktop\yolo_test\checkpoint_best_total.pth"
 
     # CUDA kontrolü
