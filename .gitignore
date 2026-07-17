@@ -1,0 +1,36 @@
+# --- Sanal ortam ---
+venv/
+env/
+.venv/
+
+# --- Python önbellek/derleme ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Video dosyaları ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- Model / checkpoint dosyaları ---
+*.pth
+*.pt
+*.onnx
+
+# --- Ham/işlenmiş veri dosyaları ---
+bee_trajectories.csv
+*.csv
+
+# --- Üretilen çıktı klasörleri (analiz/tracker sonuçları) ---
+*_output/
+*_analysis_output/
+plots/
+report/
+
+# --- Editör / işletim sistemi dosyaları ---
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

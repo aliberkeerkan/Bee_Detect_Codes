@@ -151,7 +151,7 @@ class ArucoDetector:
 # ==========================================
 def run_aruco_test():
     # Hızlı test için kırpılmış videoyu kullanabiliriz
-    VIDEO_DOSYASI = "test_kirpilmiş.mp4" 
+    VIDEO_DOSYASI = "test_cropped.mp4" 
     print("[SİSTEM] Sadece Özel ArUco Modülü Başlatılıyor...")
     
     # Modülü örnekle
